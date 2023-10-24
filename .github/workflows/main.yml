@@ -29,6 +29,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.4.3
         with:
-          GITHUB_TOKEN: ${{ secrets.BANANA_TROUBLE }}
+          BANANA_TROUBLE: ${{ secrets.BANANA_TROUBLE }}
           BRANCH: gh-pages
           FOLDER: build
