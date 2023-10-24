@@ -1,5 +1,12 @@
 # Intro to Software Development through Web Development
 
+- [Intro to Software Development through Web Development](#intro-to-software-development-through-web-development)
+  - [How to contribute to this repo](#how-to-contribute-to-this-repo)
+  - [Brand Kit](#brand-kit)
+    - [Colors](#colors)
+    - [Fonts](#fonts)
+  - [Libraries Used](#libraries-used)
+
 ## How to contribute to this repo
 
 1. Fork your own copy of this repo from the development branch and work on it.
@@ -21,4 +28,28 @@ npm run dev
 
 ## Brand Kit
 
-> will be added soon
+### Colors
+
+**Blue:** Blue 500 #4285f4 | Blue 300 #8ab4f8  
+**Green:** Green 500 #34a853 | Green 300 #81c995  
+**Yellow:** Yellow 500 #f9ab00 | Yellow 300 #fde293    
+**Red:** Red 500 #ea4335 | Red 300 #f28b82  
+**Neutrals:** Black #000000 | Grey 700 #5f6368 | Grey 100 #f1f3f4  
+
+![Color](src/assets/readme-res/brand-kit-screenshot-1.jpg)
+
+### Fonts
+
+Headings: Manrope ExtraBold 800  
+SubHead: Roboto Mono Regular 400  
+Body: Open Sans Regular 400  
+
+Manrope: [Link](https://fonts.google.com/specimen/Manrope)  
+Roboto Mono: [Link](https://fonts.google.com/specimen/Roboto+Mono)  
+Open Sans: [Link](https://fonts.google.com/specimen/Open+Sans)  
+
+## Libraries Used
+
+- BrowserRouter
+- axios
+- ReactGoogleForms
