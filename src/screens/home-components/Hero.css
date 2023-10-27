@@ -1,1 +1,103 @@
+#hero {
+  width: 100vw;
+  height: 100vh;
+}
 
+#hero-nav {
+  padding: 1rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+#hero-nav > img {
+  max-width: 20rem;
+}
+
+#nav-btns {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-btns > button {
+  margin-right: 1rem;
+}
+
+#hero-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2.5rem;
+}
+
+main {
+  font-family: var(--manrope);
+  font-weight: 800;
+}
+
+main > p {
+  font-size: 6rem;
+  margin: 1.5rem;
+}
+
+main > div {
+  display: flex;
+  font-size: 3rem;
+}
+
+main > div > a {
+  padding: 0.5rem 1.5rem !important;
+}
+
+main > div > a:nth-child(1) {
+  margin-right: 2rem;
+}
+
+aside {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  max-width: fit-content;
+  justify-items: center;
+  gap: 1rem;
+}
+
+aside > div {
+  width: 22rem;
+  height: 22rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+aside > div > p {
+  color: white;
+  font-family: var(--manrope);
+  font-weight: 800;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+#rajput {
+  background-image: url(/src/assets/images/red.png);
+}
+
+#maurya {
+  background-image: url(/src/assets/images/blue.png);
+}
+
+#gupta {
+  background-image: url(/src/assets/images/yellow.png);
+}
+
+#chanukya {
+  background-image: url(/src/assets/images/green.png);
+}

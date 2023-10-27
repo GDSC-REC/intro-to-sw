@@ -18,6 +18,11 @@
   --grey-700: #5f6368;
   --grey-100: #f1f3f4;
   --btn-pressed-color: rgb(212, 212, 212);
+
+  /* Shorthands for Fonts */
+  --manrope: "Manrope", sans-serif !important;
+  --open-sans: "Open Sans", sans-serif !important;
+  --roboto-mono: "Roboto Mono", monospace !important;
 }
 
 body {
@@ -33,7 +38,7 @@ body {
   text-decoration: none;
   color: var(--black);
   border: 1px solid var(--black);
-  padding: 1rem 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 3rem;
   width: fit-content;
 }
