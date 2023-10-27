@@ -14,22 +14,15 @@
 
   --black: #000000;
   --white: #ffffff;
-  --grey-700: ##5f6368;
+  --whitesmoke: whitesmoke;
+  --grey-700: #5f6368;
   --grey-100: #f1f3f4;
+  --btn-pressed-color: rgb(212, 212, 212);
 }
 
 body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0;
-  text-align: center;
-}
-
-#root {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .gdsc-btn {
@@ -38,17 +31,17 @@ body {
   align-items: center;
   flex-wrap: nowrap;
   text-decoration: none;
-  color: black;
-  border: 1px solid black;
+  color: var(--black);
+  border: 1px solid var(--black);
   padding: 1rem 1rem;
   border-radius: 3rem;
   width: fit-content;
 }
 
 .gdsc-btn:hover {
-  background-color: whitesmoke;
+  background-color: var(--whitesmoke);
 }
 
 .gdsc-btn:active {
-  background-color: rgb(212, 212, 212);
+  background-color: var(--btn-pressed-color);
 }
