@@ -11,3 +11,24 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.gdsc-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 1rem 1rem;
+  border-radius: 3rem;
+  width: fit-content;
+}
+
+.gdsc-btn:hover {
+  background-color: whitesmoke;
+}
+
+.gdsc-btn:active {
+  background-color: rgb(212, 212, 212);
+}
