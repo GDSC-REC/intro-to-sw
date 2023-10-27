@@ -25,8 +25,12 @@
   --roboto-mono: "Roboto Mono", monospace !important;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: var(--manrope);
   margin: 0;
 }
 

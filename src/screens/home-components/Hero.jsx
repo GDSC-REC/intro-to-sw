@@ -10,7 +10,7 @@ export const Hero = () => {
           alt="google developer studnet clubs raghu engineering college logo"
         />
         <div id="nav-btns">
-          {/* <button className="gdsc-btn"></button> */}
+          <button className="gdsc-btn"></button>
           <Link to="/about" className="gdsc-btn">
             About
           </Link>
@@ -29,7 +29,7 @@ export const Hero = () => {
             <a href="" className="gdsc-btn">
               i'm in
             </a>
-            <a href="" className="gdsc-btn">
+            <a href="#motiv" className="gdsc-btn">
               tell me more
             </a>
           </div>
