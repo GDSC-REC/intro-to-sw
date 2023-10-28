@@ -1,0 +1,25 @@
+#motiv {
+  display: flex;
+  align-items: center;
+}
+
+#motiv > div:nth-child(2) {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#motiv > div > img {
+  max-width: 40vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+#motiv > div > h2 {
+  font-size: 4.5rem;
+  font-weight: 800;
+}
+
+#motiv > div > p {
+  font-size: 2rem;
+  font-weight: 500;
+}
