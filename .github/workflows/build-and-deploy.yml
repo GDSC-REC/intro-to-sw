@@ -9,13 +9,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Install dependencies
         run: npm install
       - name: Build React app
         run: npm run build
       - name: Deploy to GitHub Pages
-        uses: actions/github-script@v5
+        uses: actions/github-script@v6
         with:
           script: |
             # Create the gh-pages branch if it doesn't exist
