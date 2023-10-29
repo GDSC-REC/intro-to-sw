@@ -23,6 +23,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "vite": "^4.5.0"
-  }
+  },
   "homepage": "https://gdsc-rec.github.io/intro-to-sw"
 }
