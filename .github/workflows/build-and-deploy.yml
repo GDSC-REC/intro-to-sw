@@ -1,0 +1,38 @@
+name: Build and Deploy React Website
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build React app
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: actions/github-script@v5
+        with:
+          script: |
+            # Create the gh-pages branch if it doesn't exist
+            git checkout -b gh-pages || git checkout gh-pages
+
+            # Copy the build files to the gh-pages branch
+            cp -r build/* .
+
+            # Commit and push the changes
+            git add .
+            git commit -m "Deploy React website"
+            git push origin gh-pages
+
+            # Return to the main branch
+            git checkout main
