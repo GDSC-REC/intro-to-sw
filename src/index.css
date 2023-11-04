@@ -17,7 +17,7 @@
   --whitesmoke: whitesmoke;
   --grey-700: #5f6368;
   --grey-100: #f1f3f4;
-  --btn-pressed-color: rgb(212, 212, 212);
+  --btn-pressed-color: rgb(48, 48, 48);
 
   /* Shorthands for Fonts */
   --manrope: "Manrope", sans-serif !important;
@@ -32,6 +32,8 @@ html {
 body {
   font-family: var(--manrope);
   margin: 0;
+  background-color: var(--black);
+  color: var(--white);
 }
 
 .gdsc-btn {
@@ -40,15 +42,16 @@ body {
   align-items: center;
   flex-wrap: nowrap;
   text-decoration: none;
-  color: var(--black);
-  border: 1px solid var(--black);
+  color: var(--white);
+  border: 1px solid var(--white);
   padding: 0.5rem 1rem;
   border-radius: 3rem;
   width: fit-content;
 }
 
 .gdsc-btn:hover {
-  background-color: var(--whitesmoke);
+  color: var(--blue-300);
+  border-color: var(--blue-300);
 }
 
 .gdsc-btn:active {
