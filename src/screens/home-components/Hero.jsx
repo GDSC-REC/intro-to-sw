@@ -29,7 +29,7 @@ export const Hero = () => {
             <a href="" className="gdsc-btn">
               i'm in
             </a>
-            <a href="#motiv" className="gdsc-btn">
+            <a href="#hdiw" className="gdsc-btn">
               tell me more
             </a>
           </div>

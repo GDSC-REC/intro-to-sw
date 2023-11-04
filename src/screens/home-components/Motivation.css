@@ -1,20 +1,24 @@
 #motiv {
   display: flex;
   align-items: center;
+  height: 100vh;
+  width: 100%;
+  border-top: 1px dashed var(--grey-700);
 }
 
-#motiv > div:nth-child(2) {
+#motiv > img {
+  height: 100vh;
+  border-left: 1px dashed var(--grey-700);
+}
+
+#motiv > div {
   margin: 0 auto;
+  width: 50%;
   padding: 2rem;
 }
 
-#motiv > div > img {
-  max-width: 40vw;
-  height: 100vh;
-  object-fit: cover;
-}
-
 #motiv > div > h2 {
+  margin: 0;
   font-size: 4.5rem;
   font-weight: 800;
 }
