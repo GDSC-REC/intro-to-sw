@@ -1,6 +1,6 @@
-# Intro to Software Development through Web Development
+# try to learn how to code for two weeks
 
-- [Intro to Software Development through Web Development](#intro-to-software-development-through-web-development)
+- [try to learn how to code for two weeks](#try-to-learn-how-to-code-for-two-weeks)
   - [How to contribute to this repo](#how-to-contribute-to-this-repo)
   - [Brand Kit](#brand-kit)
     - [Colors](#colors)
