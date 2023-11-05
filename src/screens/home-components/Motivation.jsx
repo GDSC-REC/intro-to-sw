@@ -1,4 +1,5 @@
 import "./Motivation.css";
+import youcandothis from "../../assets/images/youcandothis.png";
 
 export const Motivation = () => {
   return (
@@ -19,7 +20,7 @@ export const Motivation = () => {
           hell yes! i'm in
         </a>
       </div>
-      <img src="/src/assets/images/youcandothis.png" alt="" />
+      <img src={youcandothis} alt="" />
     </section>
   );
 };
