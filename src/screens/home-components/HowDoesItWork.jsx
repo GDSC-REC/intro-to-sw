@@ -3,7 +3,7 @@ import "./HowDoesItWork.css";
 export const HowDoesItWork = () => {
   return (
     <section id="hdiw">
-      <img src="/src/assets/images/howdoesitwork.png" alt="" />
+      <img src="../../assets/images/howdoesitwork.png" alt="" />
       <div>
         <h2>how does it work?</h2>
         <div>
