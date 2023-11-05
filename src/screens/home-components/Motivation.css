@@ -4,6 +4,7 @@
   height: 100vh;
   width: 100%;
   border-top: 1px dashed var(--grey-700);
+  border-bottom: 1px dashed var(--grey-700);
 }
 
 #motiv > img {
