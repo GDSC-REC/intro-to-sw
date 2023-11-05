@@ -1,14 +1,12 @@
 import "./Hero.css";
 import { Link } from "react-router-dom";
+import gdsclogo from "../../assets/logos/GDSC-REC-Logo-chapter-lockup.svg";
 
 export const Hero = () => {
   return (
     <section id="hero">
       <nav id="hero-nav">
-        <img
-          src="/src/assets/logos/GDSC-REC-Logo-chapter-lockup.svg"
-          alt="google developer studnet clubs raghu engineering college logo"
-        />
+        <img src={gdsclogo} alt="google developer studnet clubs raghu engineering college logo" />
         <div id="nav-btns">
           <button className="gdsc-btn"></button>
           <Link to="/about" className="gdsc-btn">
