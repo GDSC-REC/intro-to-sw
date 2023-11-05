@@ -4,6 +4,7 @@ import { Motivation } from "./home-components/Motivation";
 import { Footer } from "./reusable-components/Footer";
 import { HowDoesItWork } from "./home-components/HowDoesItWork";
 import { Disclaimer } from "./home-components/Disclaimer";
+import { CantFollowLive } from "./home-components/CantFollowLive";
 
 export const Home = () => {
   return (
@@ -12,6 +13,7 @@ export const Home = () => {
       <HowDoesItWork />
       <Motivation />
       <Disclaimer />
+      <CantFollowLive />
       <Footer />
     </>
   );

@@ -4,13 +4,13 @@
   border: 1px dashed var(--grey-700);
 }
 
-.content {
+#disclaimer > .content {
   padding: 2rem;
   width: 50%;
   margin: auto;
 }
 
-.content > h2 {
+#disclaimer > .content > h2 {
   font-size: 2rem;
   border: 1px dashed var(--red-500);
   width: fit-content;
@@ -21,6 +21,6 @@
   background-color: #ff000011;
 }
 
-.content p {
+#disclaimer > .content > p {
   font-size: 2rem;
 }

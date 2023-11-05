@@ -1,0 +1,21 @@
+#cfl {
+  text-align: center;
+  margin: 4rem;
+  border: 1px dashed var(--grey-700);
+}
+
+#cfl > .content {
+  padding: 2rem;
+  width: 50%;
+  margin: auto;
+}
+
+#cfl > .content > h2 {
+  font-size: 4.5rem;
+  width: fit-content;
+  margin: auto;
+}
+
+#cfl > .content > p {
+  font-size: 2rem;
+}
