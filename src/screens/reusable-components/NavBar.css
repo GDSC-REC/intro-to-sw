@@ -1,0 +1,22 @@
+#nav {
+  padding: 1rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+#nav > img {
+  max-width: 20rem;
+}
+
+#nav-btns {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-btns > button {
+  margin-right: 1rem;
+}
