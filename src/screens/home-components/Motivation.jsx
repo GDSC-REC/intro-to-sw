@@ -1,4 +1,5 @@
 import "./Motivation.css";
+import youcandothis from "../../assets/images/youcandothis.png";
 
 export const Motivation = () => {
   return (
@@ -6,15 +7,20 @@ export const Motivation = () => {
       <div>
         <h2>you can do this!</h2>
         <p>
-          you might want a developer job <br />
-          maybe make your own websites <br />
-          probably win a popular hackathon <br />
-          become a freelance programmer <br /> <br />
-          it could be anything! all you need to do is to start! <br />
-          let this be your best shot ever
+          you might want a high-paying tech job. <br />
+          maybe work at your own schedule. <br /> <br />
+          all it takes is to make a solid start in coding. <br />
+          you may have tried it before and felt like this was too hard, or it wasn't for you, etc.
+          <br /> <br />
+          how about giving it one last shot? not saying it's easy <br />
+          but, if you make it, nothing can stop you after this! <br /> <br />
+          let this be your best shot ever! you got this!
         </p>
+        <a href="" className="gdsc-btn">
+          hell yes! i'm in
+        </a>
       </div>
-      <img src="/src/assets/images/youcandothis.png" alt="" />
+      <img src={youcandothis} alt="" />
     </section>
   );
 };

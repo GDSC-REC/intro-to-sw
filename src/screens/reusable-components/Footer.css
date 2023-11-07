@@ -1,0 +1,14 @@
+footer {
+  text-align: center;
+  color: var(--grey-700);
+  padding: 1rem 0 8rem 0;
+}
+
+footer > p > a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+footer > p > a:hover {
+  text-decoration: underline;
+}
