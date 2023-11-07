@@ -1,9 +1,16 @@
 #nav {
-  padding: 1rem 2.5rem;
+  padding: 0 2.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: "Open Sans", sans-serif !important;
+  position: sticky;
+  top: 0;
+  background-color: #000000aa;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 99;
+  border-bottom: 1px dashed var(--grey-700);
 }
 
 #nav > img {

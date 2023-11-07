@@ -1,10 +1,8 @@
 import "./Hero.css";
-import { NavBar } from "../reusable-components/NavBar";
 
 export const Hero = () => {
   return (
     <section id="hero">
-      <NavBar />
       <div id="hero-content">
         <main>
           <p>
