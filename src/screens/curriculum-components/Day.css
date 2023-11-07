@@ -1,0 +1,12 @@
+.day h3 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.day > div:nth-child(odd) {
+  text-align: left;
+}
+
+.day > div:nth-child(even) {
+  text-align: right;
+}
