@@ -1,12 +1,14 @@
-.day h3 {
+.day {
+  border-bottom: 1px dashed var(--grey-700);
+  padding: 1rem;
+}
+
+.day > h3 {
   font-size: 2rem;
   margin: 1rem 0;
 }
 
-.day > div:nth-child(odd) {
-  text-align: left;
-}
-
-.day > div:nth-child(even) {
+.day:nth-child(odd) {
+  /* align-self: flex-end; */
   text-align: right;
 }

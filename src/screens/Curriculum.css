@@ -1,5 +1,12 @@
-#curr h2 {
-  font-size: 4.5rem;
-  margin: 1rem 0;
+#curr > h2 {
+  font-size: 4rem;
+  margin: 1rem;
   text-align: center;
+}
+
+#curr > div {
+  border: 1px dashed var(--grey-700);
+  border-bottom: none;
+  max-width: 50%;
+  margin: 1rem auto;
 }

@@ -7,7 +7,6 @@ export const Day = ({ dayNum, title, content }) => {
       <h3>day {dayNum}</h3>
       <p>
         <span>{title}</span> <br />
-        {console.log(content)}
         {content.map((line, i) => {
           return (
             <>
