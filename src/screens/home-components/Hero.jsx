@@ -8,7 +8,7 @@ export const Hero = () => {
           <p>
             try to learn <br />
             how to code <br />
-            for 2 weeks. <br />
+            for 3 weeks. <br />
             you in?
           </p>
           <div>
