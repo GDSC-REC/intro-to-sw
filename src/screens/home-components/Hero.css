@@ -7,6 +7,7 @@
 #hero-content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 1rem 2.5rem;
 }
 
@@ -34,17 +35,14 @@ main > div > a:nth-child(1) {
 }
 
 aside {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  max-width: fit-content;
-  justify-items: center;
-  gap: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
-aside > div {
+aside > div > div {
   width: 22rem;
   height: 22rem;
+  margin: 1rem 0 1rem 1rem;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 1rem;
@@ -54,7 +52,7 @@ aside > div {
   align-items: center;
 }
 
-aside > div > p {
+aside > div > div > p {
   color: white;
   font-family: var(--manrope);
   font-weight: 800;
@@ -78,4 +76,107 @@ aside > div > p {
 
 #chanukya {
   background-image: url(/src/assets/images/green.png);
+}
+
+@media screen and (max-width: 1350px) {
+  aside > div > div {
+    width: 18rem;
+    height: 18rem;
+  }
+  main > p {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 1255px) {
+  #hero {
+    height: fit-content;
+    padding-bottom: 3rem;
+  }
+
+  #hero-content {
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  aside > div {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  aside > div > div {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  aside > div > div > p {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  aside > div > div {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  aside > div > div > p {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  aside > div > div {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  aside > div > div > p {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  main > p {
+    font-size: 4rem;
+  }
+
+  aside > div > div {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  aside > div > div > p {
+    font-size: 0.4rem;
+  }
+
+  main > div > a {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #hero-content {
+    padding: 1rem;
+  }
+
+  main > p {
+    font-size: 3rem;
+    margin: 0 0 1rem 0;
+  }
+
+  aside > div > div {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  aside > div > div > p {
+    display: none;
+  }
+
+  main > div > a {
+    font-size: 1rem;
+  }
 }
