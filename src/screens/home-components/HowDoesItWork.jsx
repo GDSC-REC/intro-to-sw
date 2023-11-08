@@ -5,13 +5,19 @@ import { Link } from "react-router-dom";
 export const HowDoesItWork = () => {
   return (
     <section id="hdiw">
-      <img src={howdoesitwork} alt="" />
-      <div>
+      <div id="img-div"></div>
+      <div id="content-div">
         <h2>how does it work?</h2>
         <div>
-          <span id="tag1">beginner</span>
-          <span id="tag2">14 hours/week</span>
-          <span id="tag3">level: hard</span>
+          <span id="tag1" className="tag">
+            beginner
+          </span>
+          <span id="tag2" className="tag">
+            14 hours/week
+          </span>
+          <span id="tag3" className="tag">
+            level: hard
+          </span>
         </div>
         <p>
           7 classes, each followed by a day for practice. you'll build a cool little project at the

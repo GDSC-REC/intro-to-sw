@@ -24,3 +24,32 @@
 #disclaimer > .content > p {
   font-size: 2rem;
 }
+
+@media screen and (max-width: 1350px) {
+  #disclaimer > .content {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 737px) {
+  #disclaimer > .content {
+    width: fit-content;
+  }
+
+  #disclaimer > .content > p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #disclaimer {
+    margin: 1.5rem;
+  }
+
+  #disclaimer > .content > h2 {
+    font-size: 2rem;
+  }
+  #disclaimer > .content > p {
+    font-size: 1.25rem;
+  }
+}

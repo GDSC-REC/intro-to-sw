@@ -24,3 +24,14 @@
 #whatnext p {
   font-size: 2rem;
 }
+
+@media screen and (max-width: 737px) {
+  #whatnext > div > h2 {
+    font-size: 3rem;
+    padding: 3rem;
+  }
+
+  #whatnext > p {
+    font-size: 1.5rem;
+  }
+}
