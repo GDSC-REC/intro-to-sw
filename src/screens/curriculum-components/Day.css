@@ -20,14 +20,21 @@
 
 .day:nth-child(even) > img {
   transform: rotate(10deg);
-  margin-right: 3rem;
 }
 
 .day:nth-child(odd) > img {
   transform: rotate(-10deg);
-  margin-left: 3rem;
 }
 
 .day > img {
-  width: 10rem;
+  width: 15rem;
+}
+
+@media screen and (max-width: 550px) {
+  .day > img {
+    width: 10rem;
+  }
+  .day > div > p > span > span {
+    font-size: 0.8rem;
+  }
 }
