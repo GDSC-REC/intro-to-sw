@@ -7,7 +7,6 @@
 #hero-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 1rem 2.5rem;
 }
 
@@ -18,10 +17,10 @@ main {
 
 main > p {
   font-size: 6rem;
-  margin: 1.5rem;
+  margin: 1rem;
 }
 
-main > div {
+#hero-btns {
   display: flex;
   font-size: 3rem;
 }
@@ -32,6 +31,12 @@ main > div > a {
 
 main > div > a:nth-child(1) {
   margin-right: 2rem;
+}
+
+#tags {
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  font-weight: 400;
 }
 
 aside {
@@ -139,6 +144,13 @@ aside > div > div > p {
 
   aside > div > div > p {
     font-size: 0.5rem;
+  }
+  #tags {
+    padding-left: 0;
+  }
+  .tag {
+    font-size: 0.7rem;
+    margin-right: 0.5rem;
   }
 }
 
