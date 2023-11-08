@@ -16,13 +16,9 @@ export const HowDoesItWork = () => {
         <p>
           7 classes, each followed by a day for practice. you'll build a cool little project at the
           end. <br /> <br />
-          day 1: intro <br />
-          day 3: writing code <br />
-          day 5: programming with javascript <br />
-          day 7: javascript for the web <br />
-          day 9: set up like a real dev <br />
-          day 11: final project <br />
-          day 14: what's next? <br />
+          week 1: intro to programming <br />
+          week 2: use what you've learned <br />
+          week 3: do it yourself <br />
         </p>
         <Link to="/curriculum" className="gdsc-btn">
           open full plan
