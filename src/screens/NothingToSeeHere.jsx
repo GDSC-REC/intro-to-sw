@@ -21,10 +21,7 @@ export const NothingToSeeHere = () => {
           alt="google developer student clubs raghu engineering college logo"
         />
       </a>
-      <p>New to coding? We got a surprise for you!</p>
-      <Link to="/" className="gdsc-btn">
-        Open Suprise 🎁
-      </Link>
+      <p>We will update this soon, check back later!</p>
     </figure>
   );
 };
