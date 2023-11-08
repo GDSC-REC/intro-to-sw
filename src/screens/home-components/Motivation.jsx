@@ -4,7 +4,8 @@ import youcandothis from "../../assets/images/youcandothis.png";
 export const Motivation = () => {
   return (
     <section id="motiv">
-      <div>
+      <div id="img-div-m"></div>
+      <div id="content-div-m">
         <h2>you can do this!</h2>
         <p>
           you might want a high-paying tech job. <br />
@@ -20,7 +21,6 @@ export const Motivation = () => {
           hell yes! i'm in
         </a>
       </div>
-      <img src={youcandothis} alt="" />
     </section>
   );
 };

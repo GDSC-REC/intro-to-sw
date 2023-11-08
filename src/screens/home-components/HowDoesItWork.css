@@ -1,7 +1,7 @@
 #hdiw {
   display: flex;
-  min-height: 100vh;
   align-items: center;
+  padding-bottom: 2rem;
   height: fit-content;
   width: 100%;
   border-top: 1px dashed var(--grey-700);
@@ -10,11 +10,11 @@
 #img-div {
   height: 100vh;
   width: 30%;
-  border-right: 1px dashed var(--grey-700);
   background-image: url(/src/assets/images/howdoesitwork.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
+  border-bottom: 1px dashed var(--grey-700);
 }
 
 #content-div {
@@ -67,6 +67,7 @@
   #hdiw {
     position: relative;
     display: block;
+    height: fit-content;
   }
 
   #img-div {
@@ -87,6 +88,11 @@
   #content-div > p {
     font-size: 1.5rem;
   }
+
+  #content-div > a {
+    font-size: 1rem;
+  }
+
   .tag {
     font-size: 0.8rem;
   }
