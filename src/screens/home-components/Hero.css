@@ -122,6 +122,10 @@ aside > div > div > p {
     height: 10rem;
   }
 
+  #rajput {
+    margin-left: 0;
+  }
+
   aside > div > div > p {
     font-size: 0.6rem;
   }
