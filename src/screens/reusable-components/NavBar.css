@@ -24,6 +24,19 @@
   align-items: center;
 }
 
-#nav-btns > button {
-  margin-right: 1rem;
+@media screen and (max-width: 780px) {
+  #nav {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #delink > img {
+    width: 10rem;
+  }
+
+  #nav-btns > a {
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+  }
 }
