@@ -17,7 +17,7 @@ export const Motivation = () => {
           but, if you make it, nothing can stop you after this! <br /> <br />
           let this be your best shot ever! you got this!
         </p>
-        <a href="" className="gdsc-btn">
+        <a href="https://forms.gle/pN5fQZgLKeqfQbcTA" className="gdsc-btn">
           hell yes! i'm in
         </a>
       </div>
