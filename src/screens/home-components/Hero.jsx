@@ -23,7 +23,7 @@ export const Hero = () => {
             </span>
           </div>
           <div id="hero-btns">
-            <a href="" className="gdsc-btn">
+            <a href="https://forms.gle/pN5fQZgLKeqfQbcTA" className="gdsc-btn">
               i'm in
             </a>
             <a href="#hdiw" className="gdsc-btn">

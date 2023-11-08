@@ -1,12 +1,14 @@
 import "./NothingToSeeHere.css";
 import { Link } from "react-router-dom";
+import swing from "../assets/images/undraw_tree_swing_re_pqee.svg";
+import glogo from "../assets/images/google-developers-seeklogo.com.svg";
 
 export const NothingToSeeHere = () => {
   return (
     <figure id="ntsh">
       <img
         id="ntsh-img"
-        src="./src/assets/images/undraw_tree_swing_re_pqee.svg"
+        src={swing}
         alt="google developer student clubs raghu engineering college logo"
       />
       <figcaption id="ntsh-caption">Oops! Nothing to see here 😅</figcaption>
@@ -16,15 +18,9 @@ export const NothingToSeeHere = () => {
         href="https://gdsc.community.dev/raghu-engineering-college-visakhapatnam/"
       >
         <span>Explore GDSC REC</span>
-        <img
-          src="./src/assets/images/google-developers-seeklogo.com.svg"
-          alt="google developer student clubs raghu engineering college logo"
-        />
+        <img src={glogo} alt="google developer student clubs raghu engineering college logo" />
       </a>
-      <p>New to coding? We got a surprise for you!</p>
-      <Link to="/" className="gdsc-btn">
-        Open Suprise 🎁
-      </Link>
+      <p>We will update this soon, check back later!</p>
     </figure>
   );
 };
