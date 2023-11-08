@@ -21,17 +21,21 @@ export const Hero = () => {
           </div>
         </main>
         <aside>
-          <div id="rajput">
-            <p>"i want to win a hackathon"</p>
+          <div>
+            <div id="rajput">
+              <p>"i want to win a hackathon"</p>
+            </div>
+            <div id="maurya">
+              <p>"i want to create a web app"</p>
+            </div>
           </div>
-          <div id="maurya">
-            <p>"i want to create a web app"</p>
-          </div>
-          <div id="gupta">
-            <p>"i want to get a job"</p>
-          </div>
-          <div id="chanukya">
-            <p>"i want to freelance and travel"</p>
+          <div>
+            <div id="gupta">
+              <p>"i want to get a job"</p>
+            </div>
+            <div id="chanukya">
+              <p>"i want to freelance and travel"</p>
+            </div>
           </div>
         </aside>
       </div>
