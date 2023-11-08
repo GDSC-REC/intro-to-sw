@@ -1,7 +1,6 @@
 #hero {
   width: 100%;
   height: 100vh;
-  border-bottom: 1px dashed var(--grey-700);
 }
 
 #hero-content {
