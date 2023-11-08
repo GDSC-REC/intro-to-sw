@@ -18,8 +18,8 @@ export const Hero = () => {
             <span id="tag2" className="tag">
               need a computer/laptop
             </span>
-            <span id="tag3" className="tag">
-              be curious
+            <span id="tag4" className="tag">
+              11 nov
             </span>
           </div>
           <div id="hero-btns">
