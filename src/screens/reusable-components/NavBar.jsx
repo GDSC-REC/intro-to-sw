@@ -5,7 +5,9 @@ import gdsclogo from "../../assets/stickers/devsforfun-white.png";
 export const NavBar = () => {
   return (
     <nav id="nav">
-      <img src={gdsclogo} alt="google developer studnet clubs raghu engineering college logo" />
+      <Link to="/" id="delink">
+        <img src={gdsclogo} alt="google developer studnet clubs raghu engineering college logo" />
+      </Link>
       <div id="nav-btns">
         <Link to="/about" className="gdsc-btn">
           About
