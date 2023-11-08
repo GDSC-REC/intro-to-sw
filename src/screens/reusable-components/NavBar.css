@@ -31,7 +31,13 @@
 }
 
 @media screen and (max-width: 540px) {
+  #nav {
+    position: sticky;
+    top: 0;
+  }
+
   #delink > img {
+    margin-top: 0.5rem;
     width: 10rem;
   }
 
