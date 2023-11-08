@@ -1,7 +1,7 @@
 #motiv {
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
-  padding-bottom: 2rem;
   width: 100%;
   border-top: 1px dashed var(--grey-700);
   border-bottom: 1px dashed var(--grey-700);
@@ -14,7 +14,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
-  border-bottom: 1px dashed var(--grey-700);
+  border-left: 1px dashed var(--grey-700);
 }
 
 #content-div-m {
@@ -43,11 +43,14 @@
   #motiv {
     position: relative;
     display: block;
+    padding-bottom: 2rem;
   }
 
   #img-div-m {
     width: 100%;
     height: 30vh;
+    border-bottom: 1px dashed var(--grey-700);
+    border-left: none;
   }
 
   #content-div-m {

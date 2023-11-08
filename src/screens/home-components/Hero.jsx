@@ -11,7 +11,18 @@ export const Hero = () => {
             for 3 weeks. <br />
             you in?
           </p>
-          <div>
+          <div id="tags">
+            <span id="tag1" className="tag">
+              $ free
+            </span>
+            <span id="tag2" className="tag">
+              need a computer/laptop
+            </span>
+            <span id="tag4" className="tag">
+              11 nov
+            </span>
+          </div>
+          <div id="hero-btns">
             <a href="" className="gdsc-btn">
               i'm in
             </a>
