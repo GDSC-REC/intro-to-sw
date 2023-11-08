@@ -5,6 +5,13 @@ export const Footer = () => {
     <footer>
       <p style={{ color: "white" }}>devsForFun(❤️)</p>
       <p>
+        by
+        <a href="https://gdsc.community.dev/raghu-engineering-college-visakhapatnam/"> gdscrec</a>,
+        <a href="https://gdsc.community.dev/university-of-indonesia/"> gdsc.ui</a>,
+        <a href="https://gdsc.community.dev/kristu-jayanti-college-bengaluru/"> gdsc.kjc</a>,
+        <a href="https://gdsc.community.dev/university-of-hull/"> gdsc_hull</a>
+      </p>
+      <p>
         website design inspired by{" "}
         <a href="https://buildspace.so/" className="footlink">
           buildspace
