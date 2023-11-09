@@ -24,9 +24,9 @@
     {
       "university": "University of Hull",
       "twitter": "",
-      "linkedin": "",
-      "instagram": "",
-      "community": ""
+      "linkedin": "https://linkedin.com/company/gdsc-uh",
+      "instagram": "https://www.instagram.com/gdsc_hull/",
+      "community": "https://gdsc.community.dev/university-of-hull/"
     }
   ]
 }
