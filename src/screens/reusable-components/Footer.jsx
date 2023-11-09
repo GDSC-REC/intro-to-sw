@@ -5,6 +5,14 @@ export const Footer = () => {
     <footer>
       <p style={{ color: "white" }}>devsForFun(❤️)</p>
       <p>
+        <a href="https://twitter.com/devsForFun">
+          <i className="fa-brands fa-square-x-twitter space-to-right"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/devsforfun/">
+          <i className="fa-brands fa-linkedin"></i>
+        </a>
+      </p>
+      <p>
         by
         <a href="https://gdsc.community.dev/raghu-engineering-college-visakhapatnam/"> gdscrec</a>,
         <a href="https://gdsc.community.dev/university-of-indonesia/"> gdsc.ui</a>,
