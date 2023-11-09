@@ -9,7 +9,7 @@ export const NavBar = () => {
         <img src={gdsclogo} alt="google developer studnet clubs raghu engineering college logo" />
       </Link>
       <div id="nav-btns">
-        <Link to="/about" className="gdsc-btn">
+        <Link to={{ pathname: "/about" }} className="gdsc-btn">
           About
         </Link>
       </div>
