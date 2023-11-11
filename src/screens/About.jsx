@@ -44,7 +44,7 @@ export const About = () => {
               <Club
                 university={club.university}
                 twitter={club.twitter}
-                linkedin={club.twitter}
+                linkedin={club.linkedin}
                 instagram={club.instagram}
                 community={club.community}
               />
