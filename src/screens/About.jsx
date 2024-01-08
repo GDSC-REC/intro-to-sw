@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { NavBar } from "./reusable-components/NavBar";
 import { Footer } from "./reusable-components/Footer";
 import "./About.css";
-import { Club } from "./about-components/Club";
+import { Club } from "./about-components/club";
 import clubs from "./about-components/clubs.json";
 
 export const About = () => {
